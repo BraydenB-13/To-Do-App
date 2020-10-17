@@ -296,4 +296,32 @@ form {
   bottom: -35px;
   color: var(--clr-light);
 }
+
+.list-btn {
+  padding-left: 10px;
+}
+
+.fa-trash {
+  padding-left: 5px;
+}
+
+.fa-pencil-alt:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  color: var(--clr-primary);
+}
+
+.fa-trash:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: -webkit-transform 150ms ease-in-out;
+  transition: -webkit-transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;
+  color: var(--clr-warning);
+}
 /*# sourceMappingURL=styles.css.map */
