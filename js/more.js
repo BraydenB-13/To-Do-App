@@ -10,4 +10,9 @@ function editTask() {
 }
 
 deleteTaskButton.addEventListener('click', e => {
+    deleteTaskButton();
 })
+
+function deleteTask() {
+    
+}
