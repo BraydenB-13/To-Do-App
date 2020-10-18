@@ -6,13 +6,12 @@ editTaskButton.addEventListener('click', e => {
 })
 
 function editTask() {
-
+    prompt("What is you new task name?");
 }
 
 deleteTaskButton.addEventListener('click', e => {
-    deleteTaskButton();
+    deleteTask();
 })
 
 function deleteTask() {
-    
 }
