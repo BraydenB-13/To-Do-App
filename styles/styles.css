@@ -297,10 +297,6 @@ form {
   color: var(--clr-light);
 }
 
-.list-btn {
-  padding-left: 10px;
-}
-
 .fa-pencil-alt:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
