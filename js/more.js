@@ -14,4 +14,5 @@ deleteTaskButton.addEventListener('click', e => {
 })
 
 function deleteTask() {
+    alert("Task deleted");
 }
