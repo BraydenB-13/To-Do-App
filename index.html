@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/styles.css" />
     <script src="https://kit.fontawesome.com/4cae699c39.js" crossorigin="anonymous"></script>
     <script defer src="js/index.js"></script>
+    <script defer src="js/more.js"></script>
   </head>
 
   <body>
@@ -35,8 +36,8 @@
 
     <div class="todo-list" data-list-display-container>
       <div class="todo-header">
-        <h2 class="list-title" data-list-title>YouTube</h2>
-        <p class="task-count" data-list-count>3 tasks remaining</p>
+        <h2 class="list-title" data-list-title></h2>
+        <p class="task-count" data-list-count></p>
       </div>
 
       <div class="todo-body">
@@ -71,8 +72,8 @@
           <span class="custom-checkbox"></span>
         </label>
         <span class="list-btn">
-          <i class="fas fa-pencil-alt fa-xs"></i>
-          <i class="fas fa-trash fa-xs"></i>
+            <i class="fas fa-pencil-alt fa-xs" data-edit-task-button></i>
+            <i class="fas fa-trash fa-xs" data-delete-task-button></i>
         </span>
       </div>
     </template>
