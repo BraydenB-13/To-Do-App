@@ -3,3 +3,6 @@ const deleteTaskButton = document.querySelector('[data-delete-task-button]')
 
 editTaskButton.addEventListener('click', e => {
 })
+
+deleteTaskButton.addEventListener('click', e => {
+})
